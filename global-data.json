@@ -1,0 +1,26 @@
+{
+	"menuItems": [
+		{
+			"name": "Menu Item 1",
+			"path": "#"
+		},
+		{
+			"name": "Menu Item 2",
+			"path": "#"
+		},
+		{
+			"name": "Menu Item 3",
+			"path": "#"
+		}
+	],
+	"someData": [
+		{
+			"title": "Item 1",
+			"text": "Desc 1"
+		},
+		{
+			"title": "Item 2",
+			"text": "Desc 2"
+		}
+	]
+}

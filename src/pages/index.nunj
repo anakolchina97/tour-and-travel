@@ -1,0 +1,9 @@
+{% extends "../templates/base.nunj" %}
+
+{% from "../components/button/button.nunj" import button %}
+{% from "../components/icon/icon.nunj" import icon %}
+
+{% block content %}
+	{% include '../includes/header/header.nunj' %}
+	{% include '../includes/vacancies/vacancies.nunj' %}
+{% endblock %}

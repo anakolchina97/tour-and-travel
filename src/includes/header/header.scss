@@ -1,0 +1,45 @@
+.header {
+	overflow: hidden;
+	&__inner {
+		padding-left: 76px;
+		display: flex;
+		gap: 30px;
+		justify-content: space-between;
+		@media (max-width: $tablet) {
+			flex-wrap: wrap;
+			padding-left: 0;
+		}
+	}
+	&__logo {
+		margin-bottom: 63px;
+	}
+	&__bg {
+		&-box {
+			position: relative;
+			display: flex;
+			flex-shrink: 0;
+			width: 692px;
+			&::after {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 725px;
+				height: 696px;
+				background: inline('header-decor.svg') no-repeat 0 0;
+				z-index: -1;
+			}
+		}
+		width: 1280px;
+		clip-path: url('#svgPath');
+		object-fit: cover;
+		object-position: -330px -120px;
+	}
+	&__content {
+		padding-top: 92px;
+	}
+	&__text {
+		max-width: 365px;
+		margin-left: 3px;
+	}
+}

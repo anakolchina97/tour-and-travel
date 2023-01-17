@@ -1,0 +1,19 @@
+// ======= GLOBAL =======
+@import 'constants';
+@import 'lib/base';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+@import 'layout';
+@import 'typography';
+
+// ======= COMPONENTS =======
+@import '../../components/button/button';
+
+// ======= INCLUDES =======
+@import '../../includes/logo/logo';
+@import '../../includes/header/header';
+@import '../../includes/vacancies/vacancies';
+
+// ======= PAGES =======
+@import 'pages/main';

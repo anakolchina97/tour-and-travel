@@ -1,0 +1,26 @@
+.vacancies {
+	position: relative;
+	z-index: 1;
+	margin-top: -385px;
+	padding-bottom: 120px;
+	@media (max-width: $tablet) {
+		margin-top: 0;
+	}
+	&__inner {
+		height: 80px;
+		max-width: 1018px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		padding: 23px 137px 23px 89px;
+		background: rgba(255, 255, 255, 0.9);
+		box-shadow: 0px 2px 10px rgba(0, 58, 64, 0.2);
+		border-radius: 30px;
+	}
+	&__link {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 140%;
+		text-decoration: none;
+	}
+}
