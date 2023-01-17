@@ -79,7 +79,8 @@
     "gsap": "^3.7.0",
     "gulp-dart-sass": "^1.0.2",
     "regenerator-runtime": "^0.13.5",
-    "sass": "^1.35.1"
+    "sass": "^1.35.1",
+    "swiper": "^8.4.6"
   },
   "lint-staged": {
     "src/assets/js/**/*.js": [
