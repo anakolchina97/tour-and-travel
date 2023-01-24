@@ -1,0 +1,11 @@
+.photos {
+	padding-bottom: 85px;
+	&__slider {
+		overflow: hidden;
+		height: 516px;
+		border-radius: 30px;
+	}
+	&__img {
+		object-position: -5px -90px;
+	}
+}

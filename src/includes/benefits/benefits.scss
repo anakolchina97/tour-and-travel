@@ -1,0 +1,32 @@
+.benefits {
+	margin-top: -340px;
+	margin-bottom: 130px;
+	&__slider {
+		overflow: hidden;
+	}
+	&-item {
+		height: auto;
+		background: $white;
+		padding: 34px 41px 29px;
+		border: 1px solid rgba(136, 140, 140, 0.4);
+		border-radius: 30px;
+		&__icon {
+			width: 65px;
+			height: 65px;
+			margin-bottom: 17px;
+		}
+		&__title {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 140%;
+			color: #000000;
+			margin-bottom: 10px;
+		}
+		&__text {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 140%;
+			color: #2c3e50;
+		}
+	}
+}

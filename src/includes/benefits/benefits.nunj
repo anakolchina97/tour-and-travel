@@ -1,0 +1,44 @@
+{% set sliders = [
+	{
+		icon: "education",
+		title: "Обучение",
+		description: "Помимо стандартного введения в должность и знакомства с продуктами «ПМК» дает возможность своим специалистам постоянно расширять свои знания и развивать компетенции за счет привлечения сторонних источников"
+	},
+	{
+		icon: "office",
+		title: "Современный офис в центре города",
+		description: "На рабочем месте мы проводим большую часть жизни, поэтому мы сделали наш офис максимально комфортным и удобным"
+	},
+	{
+		icon: "rest",
+		title: "Корпоративный отдых",
+		description: "Работать в «ПМК» круто еще и потому, что мы умеем отдыхать – с размахом и душой!"
+	},
+	{
+		icon: "health",
+		title: "Здоровье",
+		description: "«ПМК» заботится о своих сотрудниках! У нас действует ДМС не только для команды, но и для членов их семей."
+	}
+] %}
+
+<section class="benefits">
+	<div class="container">
+		<div class="benefits__slider swiper" data-benefits>
+			<div class="benefits__wrapper swiper-wrapper">
+				{% for i in sliders %}
+					<div class="benefits__item benefits-item swiper-slide">
+						<div class="benefits-item__icon-box">
+							{{ icon({
+								iconName: i.icon,
+								className: "benefits-item__icon",
+								attributes: "width='118' height='114'"
+							}) }}
+						</div>
+						<div class="benefits-item__title">{{ i.title }}</div>
+						<div class="benefits-item__description">{{ i.description }}</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,21 @@
+<section class="work">
+	<div class="container">
+		<div class="work__inner">
+			<div class="work__img-box">
+				{% include "./work-mask.nunj" %}
+				<img class="work__img" src="./assets/images/work.png" alt="work" />
+			</div>
+			<div class="work__content">
+				<div class="work__text-box">
+					<p class="work__text">
+						За&nbsp;4&nbsp;года успешной работы наши эксперты поставили более 10&nbsp;тыс. единиц медицинской техники и&nbsp;инструмента, реализовали несколько сотен комплексных проектов клиник и&nbsp;кабинетов. Мы&nbsp;осуществляем медицинское оснащение на&nbsp;высоком уровне&nbsp;–&nbsp;для врачей, пациентов и&nbsp;бизнеса.
+					</p>
+					<p class="work__title">Работа в <span class="work__title _accent">Первой Медицинской компании</span></p>
+					<p class="work__text">
+						- это возможность реализовать свой потенциал и развить свои профессиональные компетенции в команде единомышленников!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

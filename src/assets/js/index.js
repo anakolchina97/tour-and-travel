@@ -18,7 +18,9 @@ class ProjectApp {
 		};
 		this.components = {};
 		this.helpers = {};
-		this.modules = {};
+		this.modules = {
+			Slider: require('./modules/Slider').default,
+		};
 		document.addEventListener('DOMContentLoaded', () => {
 			document.documentElement.classList.remove('_loading');
 		});

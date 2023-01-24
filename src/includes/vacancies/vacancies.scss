@@ -3,10 +3,12 @@
 	z-index: 1;
 	margin-top: -385px;
 	padding-bottom: 120px;
+	margin-bottom: -24px;
 	@media (max-width: $tablet) {
 		margin-top: 0;
 	}
 	&__inner {
+		align-items: center;
 		height: 80px;
 		max-width: 1018px;
 		margin: 0 auto;

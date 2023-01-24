@@ -1,0 +1,17 @@
+<section class="photos">
+	<div class="container">
+		<div class="photos__slider swiper" data-photos>
+			<div class="photos__wrapper swiper-wrapper">
+				<div class="photos__item swiper-slide">
+					<img class="photos__img" src="./assets/images/photo.png">
+				</div>
+				<div class="photos__item swiper-slide">
+					<img class="photos__img" src="./assets/images/photo.png">
+				</div>
+				<div class="photos__item swiper-slide">
+					<img class="photos__img" src="./assets/images/photo.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
