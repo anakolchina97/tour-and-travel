@@ -1,4 +1,5 @@
-import Swiper from 'swiper';
+import Swiper, { Navigation } from 'swiper';
+Swiper.use(Navigation);
 
 class Slider {
 	constructor() {
@@ -26,6 +27,15 @@ class Slider {
 		new Swiper('[data-photos]', {
 			slidesPerView: 1,
 			spaceBetween: 30,
+		});
+
+		new Swiper('[data-staff]', {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
 		});
 	}
 }

@@ -19,14 +19,14 @@
 			font-weight: 700;
 			font-size: 24px;
 			line-height: 140%;
-			color: #000000;
+			color: $black;
 			margin-bottom: 10px;
 		}
 		&__text {
 			font-weight: 400;
 			font-size: 16px;
 			line-height: 140%;
-			color: #2c3e50;
+			color: $primary;
 		}
 	}
 }

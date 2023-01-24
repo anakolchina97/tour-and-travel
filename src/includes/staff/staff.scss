@@ -1,0 +1,63 @@
+.staff {
+	padding-bottom: 85px;
+	&__slider {
+		position: relative;
+		overflow: hidden;
+		height: 516px;
+		border-radius: 30px;
+	}
+	&__img {
+		object-position: -5px -90px;
+	}
+	&__content {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 30px;
+		padding-left: 80px;
+	}
+	&__photo {
+		margin-top: -20px;
+		&-box {
+			width: 447px;
+		}
+		clip-path: url('#staffMask');
+		object-position: -220px 0;
+	}
+	&__text {
+		&-box {
+			padding-top: 90px;
+		}
+	}
+	&__name {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 140%;
+	}
+	&__text {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 140%;
+		margin-bottom: 20px;
+		&._story {
+			color: $primary;
+			max-width: 606px;
+		}
+	}
+	&__arrows {
+		position: relative;
+		width: 92px;
+		left: 68px;
+		margin-top: -105px;
+	}
+	&__prev,
+	&__next {
+		width: 25px;
+		height: 25px;
+		background: inline('arrow.svg') no-repeat 0 0;
+		background-size: cover;
+	}
+	&__next {
+		transform: rotate(180deg);
+	}
+}

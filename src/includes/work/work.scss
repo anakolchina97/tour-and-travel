@@ -16,22 +16,24 @@
 	&__text {
 		max-width: 529px;
 		&-box {
+			color: $primary;
 		}
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 140%;
-		color: #2c3e50;
 		margin-bottom: 36px;
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 	&__title {
 		font-weight: 700;
 		font-size: 24px;
 		line-height: 140%;
 		text-transform: uppercase;
-		color: #2c3e50;
 		margin-bottom: 8px;
 		&._accent {
-			color: #2db5d3;
+			color: $accent;
 		}
 	}
 }
