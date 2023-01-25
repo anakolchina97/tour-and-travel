@@ -17,6 +17,7 @@ body {
 	font-weight: 400;
 	color: $primary;
 	background: $white;
+	overflow-x: hidden;
 	@include mobile {
 		-webkit-text-size-adjust: 100%;
 	}

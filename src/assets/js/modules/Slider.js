@@ -10,12 +10,15 @@ class Slider {
 			breakpoints: {
 				320: {
 					slidesPerView: 1,
+					spaceBetween: 30,
 				},
 				768: {
 					slidesPerView: 2,
+					spaceBetween: 30,
 				},
 				1200: {
 					slidesPerView: 3,
+					spaceBetween: 30,
 				},
 				1400: {
 					slidesPerView: 4,

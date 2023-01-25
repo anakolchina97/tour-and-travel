@@ -3,7 +3,7 @@
 	&__slider {
 		position: relative;
 		overflow: hidden;
-		height: 516px;
+		min-height: 516px;
 		border-radius: 30px;
 	}
 	&__img {
@@ -14,19 +14,37 @@
 		align-items: flex-start;
 		justify-content: space-between;
 		gap: 30px;
-		padding-left: 80px;
+		@include smoothValue('padding-left', 12px, 80px, $tablet, $desktop);
+		@media (max-width: $laptop) {
+			flex-direction: column;
+		}
 	}
 	&__photo {
+		width: 100%;
+		height: 100%;
 		margin-top: -20px;
+		aspect-ratio: 447.47 / 499;
+		clip-path: url('#staffMask');
+		object-position: -219px 0;
+		object-fit: none;
+		@media (max-width: $tablet) {
+			object-fit: cover;
+			aspect-ratio: 234 / 261;
+			object-position: center center;
+		}
 		&-box {
 			width: 447px;
+			@media (max-width: $tablet) {
+				width: 100%;
+			}
 		}
-		clip-path: url('#staffMask');
-		object-position: -220px 0;
 	}
 	&__text {
 		&-box {
 			padding-top: 90px;
+			@media (max-width: $tablet) {
+				padding-top: 0;
+			}
 		}
 	}
 	&__name {
@@ -42,13 +60,15 @@
 		&._story {
 			color: $primary;
 			max-width: 606px;
+			@media (max-width: $tablet) {
+				font-size: 14px;
+			}
 		}
 	}
 	&__arrows {
 		position: relative;
 		width: 92px;
 		left: 68px;
-		margin-top: -105px;
 	}
 	&__prev,
 	&__next {

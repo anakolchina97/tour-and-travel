@@ -1,6 +1,12 @@
 .benefits {
-	margin-top: -340px;
+	margin-top: -110px;
 	margin-bottom: 130px;
+	@media (max-width: $laptop) {
+		margin-top: 0;
+	}
+	@media (max-width: $laptop) {
+		margin-bottom: 60px;
+	}
 	&__slider {
 		overflow: hidden;
 	}
@@ -21,12 +27,18 @@
 			line-height: 140%;
 			color: $black;
 			margin-bottom: 10px;
+			@media (max-width: $tablet) {
+				font-size: 22px;
+			}
 		}
-		&__text {
+		&__description {
 			font-weight: 400;
 			font-size: 16px;
 			line-height: 140%;
 			color: $primary;
+			@media (max-width: $tablet) {
+				font-size: 14px;
+			}
 		}
 	}
 }
