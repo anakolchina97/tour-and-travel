@@ -33,6 +33,7 @@
 			object-position: center center;
 		}
 		&-box {
+			flex-shrink: 0;
 			width: 447px;
 			@media (max-width: $tablet) {
 				width: 100%;
