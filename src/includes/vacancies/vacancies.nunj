@@ -1,8 +1,0 @@
-<div class="vacancies">
-	<div class="container">
-		<div class="vacancies__inner">
-			<a class="vacancies__link" href="#">www.permedcom.ru 6+</a>
-			<button class="vacancies__btn btn">Вакансии</button>
-		</div>
-	</div>
-</div>
