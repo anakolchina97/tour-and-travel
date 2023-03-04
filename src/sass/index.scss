@@ -5,7 +5,8 @@
 @import "./libs";
 
 // tools
-@import "./tools/var";
+@import "./tools/constants";
+@import "./tools/mixins";
 
 // global
 @import "./global";

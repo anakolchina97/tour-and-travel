@@ -1,0 +1,9 @@
+mixin li(text, link)
+  li.menu__item&attributes(attributes)
+    a.menu__link(href= link)= text
+
+<nav class="nav">
+  <ul>
+    +li('home', '#')._active
+  </ul>
+</nav>
